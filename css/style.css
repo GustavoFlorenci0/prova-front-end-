@@ -3,3 +3,36 @@
     padding: 0;
 }
 
+.Cabecalho {
+    background-color: green;
+    display: flex;
+    width: 1280px;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.ListaHeader {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.ResumoCidades {
+    width: 1280px;
+    height: 300px;
+    background-image: url("../img/file.jpg") ;
+    color: bisque;
+}
+
+.PontosTuristicos {
+    display: flex;
+    width: 1280px;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+}
