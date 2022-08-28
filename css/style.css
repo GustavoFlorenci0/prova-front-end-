@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
 .Cabecalho {
@@ -12,13 +14,32 @@
 }
 
 .ListaHeader {
-    width: 500px;
+    width: 400px;
     height: 100px;
     display: flex;
     list-style: none;
     align-items: center;
     justify-content: space-around;
+}
 
+.menu-header ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 8px;
+    
+}
+
+.cards{
+width: 426px;
+height: 600px;
+border-radius: 30px;
+color: black;
+padding: 15px;
+margin: 5px;
+border: 2px solid  gray;
 }
 
 .ResumoCidades {
@@ -28,7 +49,15 @@
     color: bisque;
 }
 
-.PontosTuristicos {
+.H2Turistico, .H1Video {
+    width: 1280px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.PontosTuristico {
     width: 1280px;
     height: 500px;
     display: flex;
@@ -36,14 +65,43 @@
 
 }
 
-.imagemSorocaba {
+.imagemTuristico {
     flex-grow: 1;
+    width: 400px;
+    height: 284px;
+    border-radius: 30px;
+   
+
 }
 
-.imagemThiago {
-    flex-grow: 1;
+
+.VideosApresentacao {
+    display: flex;
+    width: 1280px;
+
 }
 
-.imagemBruno {
+.VideoYoutube {
     flex-grow: 1;
+    width: 560px;
+    height: 315px;
+    padding: 10px;
+}
+.Rodape {
+    display: flex;
+    width: 1280px;
+    padding: 10px;
+    height: 200px;
+    background-color: green;
+    
+} 
+
+.referencia {
+    width: 1280px;
+    flex-direction: column;
+}
+
+
+.linkedin{
+    width: 100px;
 }
