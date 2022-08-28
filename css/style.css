@@ -29,10 +29,21 @@
 }
 
 .PontosTuristicos {
-    display: flex;
     width: 1280px;
     height: 500px;
+    display: flex;
     flex-wrap: wrap;
-    justify-content:space-evenly;
 
+}
+
+.imagemSorocaba {
+    flex-grow: 1;
+}
+
+.imagemThiago {
+    flex-grow: 1;
+}
+
+.imagemBruno {
+    flex-grow: 1;
 }
