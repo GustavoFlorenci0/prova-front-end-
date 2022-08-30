@@ -11,6 +11,7 @@
     width: 1280px;
     height: 100px;
     justify-content: space-between;
+    
 }
 
 .ListaHeader {
@@ -32,23 +33,20 @@
     
 }
 
-.cards{
-width: 426px;
-height: 600px;
-border-radius: 30px;
-color: black;
-padding: 15px;
-margin: 5px;
-border: 2px solid  gray;
-}
 .ResumoCidades {
     width: 1280px;
     height: 300px;
     background-image: url("../img/file.jpg") ;
     color: bisque;
+    display: flex;
+}
+.resumo{
+    padding: 10px;
+    align-self: center;
+    text-align:center;
 }
 
-.H2Turistico, .H1Video {
+.H2Turistico, .H2Video {
     width: 1280px;
     padding: 30px;
     display: flex;
@@ -56,21 +54,32 @@ border: 2px solid  gray;
 
 }
 
-.PontosTuristico {
+.PontosTuristicos {
     width: 1280px;
-    height: 500px;
+    height: 400px;
     display: flex;
-    flex-wrap: wrap;
+    
+}
 
+.cards{
+width: 426px;
+height: 100%;
+border-radius: 30px;
+text-align: center;
+color: whitesmoke;
+padding: 10px;
+margin: 5px;
+border: 2px solid  gray;
+background-color: gray;
+box-shadow: 10px 10px 5px black; /*teste*/
 }
 
 .imagemTuristico {
     flex-grow: 1;
     width: 400px;
-    height: 284px;
+    height: 326px;
     border-radius: 30px;
-   
-
+    margin-top: 5px;
 }
 
 
@@ -87,20 +96,35 @@ border: 2px solid  gray;
     padding: 10px;
 }
 .Rodape {
+    width: 1280px;
+    height: 100px;
+    background-color: green;
+
+    
+} 
+
+.teste {
     display: flex;
     width: 1280px;
     padding: 10px;
-    height: 200px;
-    background-color: green;
+    height: 100px;
+    margin-left: 200px;
     
-} 
+}
+
 
 .referencia {
     width: 1280px;
     flex-direction: column;
+    
+}
+
+.RedeSociais {
+    flex-direction: row;
 }
 
 
 .linkedin{
-    width: 100px;
+    width: 40px;
 }
+
