@@ -6,18 +6,23 @@
 }
 
 .Cabecalho {
-    background-color: green;
+    background-color: rgb(12, 71, 182);
     display: flex;
-    width: 100vw;
-    height: 100px;
     justify-content: space-between;
-    padding: 15px;
-    
+    width: 100%;
+    height: 100px;    
+    padding: 10px;
+
+}
+
+.Cabecalho img {
+    width: 200px;
+    height: 80px;
 }
 
 .ListaHeader {
     width: 400px;
-    height: 100px;
+    height: 100%;
     display: flex;
     list-style: none;
     align-items: center;
@@ -31,51 +36,58 @@
     border: 2px solid white;
     border-radius: 15px;
     padding: 8px;
-    
 }
 
 .ResumoCidades {
-    width: 100vw;
+    width: 100%;
     height: 300px;
-    background-image: url("../img/file.jpg") ;
+    background-image: url("../img/brasil.jpg") ;
+    background-size: cover;
+    background-position: center;
     color: bisque;
     display: flex;
-}
-.resumo{
-    padding: 10px;
-    align-self: center;
-    text-align:center;
+    justify-content: center;
 }
 
-.H2Turistico, .H2Video {
-    width: 100vw;
+.resumo{
+    width: 60%;
+    padding: 5px;
+    align-self: flex-end;
+    text-align: center;
+    
+}
+
+ .H2Turistico, .H2Video {
+    width: 100%;
     padding: 30px;
     display: flex;
     justify-content: center;
 
-}
+} 
 
 .PontosTuristicos {
-    width: 100vw;
+    width: 100%;
     height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content:space-between; */
-    
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;    
 }
 
 .cards{
-width: 30%;
-height: 100%;
-border-radius: 30px;
-text-align: center;
-color: whitesmoke;
-padding: 10px;
-margin: 5px;
-border: 2px solid  gray;
-background-color: gray;
-box-shadow: 10px 10px 5px black; /*teste*/
+    width: 30%;
+    height: 100%;
+    border-radius: 30px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid  gray;
+    background-color: gray;
+   
+}
 
+.cards:hover {
+    box-shadow: 10px 10px 5px black; /*teste*/
 }
 
 .imagemTuristico {
@@ -89,18 +101,20 @@ box-shadow: 10px 10px 5px black; /*teste*/
 
 .VideosApresentacao {
     display: flex;
-    width: 100vw;
+    width: 100%;
 
 }
 
 .VideoYoutube {
     flex-grow: 1;
-    width: 560px;
+    width: 30%;
     height: 315px;
     padding: 10px;
 }
+
+
 .Rodape {
-    width: 100vw;
+    width: 100%;
     height: 100px;
     background-color: green;
 
@@ -109,7 +123,7 @@ box-shadow: 10px 10px 5px black; /*teste*/
 
 .teste {
     display: flex;
-    width: 100vw;
+    width: 100%;
     padding: 10px;
     height: 100px;
     /* margin-left: 200px; */
@@ -118,13 +132,17 @@ box-shadow: 10px 10px 5px black; /*teste*/
 
 
 .referencia {
-    width: 100vw;
+    display: flex;
+    width: 100%;
     flex-direction: column;
     
 }
 
 .RedeSociais {
-    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 
