@@ -1,0 +1,65 @@
+@media screen and (max-width: 425px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-header a {
+    font-size: small;
+  }
+ 
+  .banner {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+  }
+
+  .curiosidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }
+
+  .cards-cidades {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+
+  .cards-cidades img {
+    width: 250px;
+
+  }
+  .videos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .cards-videos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+
+  }
+
+  .cards-videos iframe{
+    width: 250px;
+  }
+  
+
+  .referencia{
+    display: flex;
+    flex-direction: column;
+  }
+}

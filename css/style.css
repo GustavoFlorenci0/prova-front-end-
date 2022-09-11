@@ -1,152 +1,186 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
+body {
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 7px 7px 13px 13px rgba(50, 50, 50, 0.22);
+  margin: 0 15px;
+}
+.main-header {
+  width: 100%;
+  background-color: #155d3d;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed; */
+  gap: 1px;
+  padding: 1px 10px;
+  font-family: "Aboreto", cursive;
 }
 
-.Cabecalho {
-    background-color: rgb(12, 71, 182);
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 100px;    
-    padding: 10px;
-
+.logo {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+ /*  align-items: ; */
+  margin: auto;
+}
+.main-header ul {
+  display: flex;
+  flex-direction: row;
+  /* gap: 30px; */
 }
 
-.Cabecalho img {
-    width: 200px;
-    height: 80px;
+.main-header li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(112, 112, 112);
+  border: 2px solid rgba(245, 245, 245, 0.498);
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
 }
 
-.ListaHeader {
-    width: 400px;
-    height: 100%;
-    display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: space-around;
+.main-header li:hover {
+  box-shadow: 1px 1px 13px 0px gray;
+}
+.main-header li,
+a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 15pt;
+  text-decoration: none;
+  color: aliceblue;
+}
+/* home */
+.banner {
+  background-image: url(../img/brasil.jpg);
+  background-color: rgb(233, 233, 233);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+}
+/*cards*/
+.curiosidades {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.menu-header ul li a{
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    border: 2px solid white;
-    border-radius: 15px;
-    padding: 8px;
+.curiosidades p {
+  margin-top: 10px;
+  padding: 20px;
 }
 
-.ResumoCidades {
-    width: 100%;
-    height: 300px;
-    background-image: url("../img/brasil.jpg") ;
-    background-size: cover;
-    background-position: center;
-    color: bisque;
-    display: flex;
-    justify-content: center;
+.cards-cidades {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 0 30px 30px;
+  margin: 20px;
+  width: 29%;
+  transition: all 0.3s ease-out;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.resumo{
-    width: 60%;
-    padding: 5px;
-    align-self: flex-end;
-    text-align: center;
-    
+.cards-cidades:hover {
+  background-color: rgba(14, 255, 130, 0.75);
+  box-shadow: 10px 10px 13px 0px gray;
 }
 
- .H2Turistico, .H2Video {
-    width: 100%;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-
-} 
-
-.PontosTuristicos {
-    width: 100%;
-    height: 400px;
-    display: flex; 
-    justify-content: space-around;
-    flex-wrap: wrap;    
+.cards-cidades img {
+  width: 100%;
+  align-content: center;
+  justify-items: center;
+  justify-content: space-between;
+  display: flex;
+  border-radius: 10px;
 }
 
-.cards{
-    width: 30%;
-    height: 100%;
-    border-radius: 30px;
-    text-align: center;
-    color: whitesmoke;
-    padding: 10px;
-    margin: 5px;
-    border: 2px solid  gray;
-    background-color: gray;
-   
+.cards-cidades h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-.cards:hover {
-    box-shadow: 10px 10px 5px black; /*teste*/
+/*Videos*/
+.videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.imagemTuristico {
-    flex-grow: 1;
-    width: 100%;
-    height: 326px;
-    border-radius: 30px;
-    margin-top: 5px;
+.videos p {
+  margin-top: 10px;
+  padding: 20px;
 }
 
-
-.VideosApresentacao {
-    display: flex;
-    width: 100%;
-
+.cards-videos {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 15px 30px 30px;
+  margin: 20px;
+  width: 29%;
+  transition: all 0.3s ease-out;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.VideoYoutube {
-    flex-grow: 1;
-    width: 30%;
-    height: 315px;
-    padding: 10px;
+.cards-videos:hover {
+  background-color: rgba(14, 255, 130, 0.75);
+  box-shadow: 10px 10px 13px 0px gray;
 }
 
-
-.Rodape {
-    width: 100%;
-    height: 100px;
-    background-color: green;
-
-    
-} 
-
-.teste {
-    display: flex;
-    width: 100%;
-    padding: 10px;
-    height: 100px;
-    /* margin-left: 200px; */
-    
+.cards-videos iframe {
+  width: 407px;
+  align-items: center;
+  justify-content: space-between;
+  display: inline-block;
+  border-radius: 10px;
+}
+/* rodapé */
+.equipe {
+  width: 100%;
+  background-color: rgb(21, 93, 61);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed; */
+  gap: 1px;
+  padding: 1px 10px;
+  font-family: "Aboreto", cursive;
 }
 
+.equipe {
+  display: flex;
+  justify-content: space-around;
+
+}
 
 .referencia {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: column;
 }
 
-.RedeSociais {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.redesocial{
+  display: flex;
+  align-items: center;
 }
 
-
-.linkedin{
-    width: 40px;
+.redesocial img {
+  width: 50px;
+  height: 50px;
 }
-

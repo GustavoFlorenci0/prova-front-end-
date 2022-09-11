@@ -1,103 +1,143 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>check point 01</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-      <header class="Cabecalho" >         
-          <img src="./img/logo.png" alt="logotipo">
-          <nav class="menu-header">
-            <ul class="ListaHeader">
-              <li>
-                <a href="#home">home</a>
-              </li>
-              <li>
-              <a href="#curiosidades">curiosidades</a>
-              </li>
-              <li>
-              <a href="#vídeos">Vídeos</a>
-              </li>          
-            </ul>
-          </nav>        
-      </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsividade.css">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap"
+      rel="stylesheet"
+    />
+    <title>CheckPoint 1</title>
+  </head>
+  <!--cabeçalho-->
+  <header class="main-header">
+    <div class="logo">
+      <img class="logobrasil" src="./img/logo1.png" alt="logo" />
+    </div>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#curiosidades">Curiosidades</a></li>
+          <li><a href="#videos">Vídeos</a></li>
+        </ul>
+      </nav>
+    </div>
     
-      <main>
-        <div id="home" class=" ResumoCidades" >
-            <p class="resumo" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, fugit? Nemo, quas ullam! Veritatis ab numquam perspiciatis officiis odit maxime accusamus minus commodi reprehenderit reiciendis, ullam id, iste, corrupti ex quaerat esse expedita facilis quia cumque dolore. Provident, rerum. Accusantium consectetur quisquam corrupti a voluptates placeat ducimus sapiente fuga eos!</p>
-        </div>
-        <div>
-            <h2 class="H2Turistico" id="curiosidades"> Pontos Turistico da Cidades</h2>
-            <div class="PontosTuristicos">
-              <div class="cards">
-                <h2>SOROCABA</h2>
-                <p> Jardim botânico</p>
-                <img class="imagemTuristico" src="./img/sorocaba.webp" alt="Imagem da cidade de Sorocaba">
-              </div>
-              <div class="cards">
-                <h2>SERRA</h2>
-                <p>Orla de Jacaraípe</p>
-                  <img class="imagemTuristico" src="./img/serra.jpg" alt="Imagem da cidade de Serra"
-                  ></div>
-              <div class="cards">
-                <h2>FORTALEZA</h2>
-                <p>Orla de Beira Mar</p>
-                <img class="imagemTuristico" src="./img/fortaleza.jpg" alt="imagem da cidade de Fortaleza">
-              </div>
-            </div>
-            
-        </div>
-        
-        <div>
-            <h2 class="H2Video" > Videos </h2>
-            <div class="VideosApresentacao" id="vídeos">
-              <iframe class="VideoYoutube" src="https://www.youtube.com/embed/5SuzEXGMTZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              
-              <iframe class="VideoYoutube" src="https://www.youtube.com/embed/FeDaWjWFNPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <iframe class="VideoYoutube" src="https://www.youtube.com/embed/8LGJhkhcq0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-      </main>
+  </header>
+  <body>
     
-      <footer class="Rodape">
-        <div class="teste">
+    <!--banner-->
+    <main class="banner">
+      <div class="banner1"></div>
+    </main>
+    <!--cards-->
+
+    <section id="curiosidades" class="curiosidades">
+
+      <p><h1>Cidades</h1></p>
+      <div>
+        <div class="cards-cidades">
+         <h2>Sorocaba</h2>
+          <img class="imgcard" src="./img/Edificio-principal-do-Jardim-Botanico-de-Sorocaba.jpg" alt="Jardim-botanico" />
+        </div>
+      <div class="cards-cidades">
+        <h2>Serra</h2>
+        <img class="imgcard" src="./img/Serra, Igreja dos Reis Magos- Yuri Barichivich.jpg" alt="igreja-dos-reis-magos" />
+      </div>
+      <div class="cards-cidades">
+        <h2>Fortaleza</h2>
+        <img class="imgcard" src="./img/estatua-iracema-guardia-1-1200x783.jpg" alt="estatua-de-iracema"/>
+      </div>
+     
+    </section>
+    
+    <!--videos-->
+
+    <section id="videos" class="videos">
+      
+      <p><h1>Vídeos</h1></p>
+     
+      <div>
+       <div class="cards-videos">
+        <iframe
+        width="407"
+        height="295"
+        src="https://www.youtube.com/embed/8LGJhkhcq0I"
+        title="Cidade de Fortaleza Vista de Cima"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+       </div>
+        <div class="cards-videos">
+          <iframe
+          width="407"
+          height="295"
+          src="https://www.youtube.com/embed/FeDaWjWFNPw"
+          title="Serra - Espírito Santo"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        </div>
+        <div class="cards-videos">
+          <iframe
+          width="407"
+          height="295"
+          src="https://www.youtube.com/embed/5SuzEXGMTZ0"
+          title="•Sorocaba-SP• 4° Mais Populosa Do Interior Paulista 🇧🇷"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        </div>
+      </div>
+    </section>
+    <!--rodape-->
+    <footer>
+      <section id="sobre" class="equipe">
           <div class="referencia">   
-              <div class=" RedeSociais">
-                <a href="https://www.google.com/" target="_blank" ><img class="linkedin" src="./img/logo-linkedin-256.png" alt="linkedin Thiago"></a>
-                <p>@gustavo-florencio56</p>     
+              <div class=" redesocial">
+                <a href="https://www.linkedin.com/in/gustavo-florencio56/" target="_blank" ><img  src="./img/logo-linkedin-256.png" alt="linkedin Thiago"></a>
+                <p>gustavo-florencio56</p>     
               </div>
-              <div class=" RedeSociais ">
-                <a href="https://www.google.com/" target="_blank" ><img class="linkedin" src="./img/github-153-675523.webp" alt="Git Thiago"></a>
-                <p>@GustavoFlorenci0</p>
+              <div class=" redesocial ">
+                <a href="https://github.com/GustavoFlorenci0" target="_blank" ><img  src="./img/github-153-675523.webp" alt="Git Thiago"></a>
+                <p>GustavoFlorenci0</p>
               </div>            
           </div>
           <div class="referencia">
-            <div class=" RedeSociais ">
-              <a href="https://www.google.com/" target="_blank" ><img class="linkedin"src="./img/logo-linkedin-256.png" alt="linkedin Bruno"></a>
-              <p> @BrunoSouza </p>
+            <div class=" redesocial ">
+              <a href="https://www.linkedin.com/in/brunosouzad/" target="_blank" ><img src="./img/logo-linkedin-256.png" alt="linkedin Bruno"></a>
+              <p> BrunoSouza </p>
             </div> 
-            <div class=" RedeSociais ">
-              <a href="https://www.google.com/" target="_blank" ><img class="linkedin" src="./img/github-153-675523.webp" alt="Git Bruno"></a> 
-              <p> @Brunosouzad </p>
+            <div class=" redesocial ">
+              <a href="https://github.com/Brunosouzad" target="_blank" ><img src="./img/github-153-675523.webp" alt="Git Bruno"></a> 
+              <p> BrunoSouza</p>
             </div>            
           </div>        
           <div class="referencia">
-            <div class=" RedeSociais">
-              <a href="https://www.google.com/" target="_blank" ><img class="linkedin" src="./img/logo-linkedin-256.png" alt="linkedin Gustavo"></a>
-              <p>@ThiagoVasconcelos</p>              
+            <div class=" redesocial">
+              <a href="https://www.linkedin.com/in/thiago-vasconcelos-b323557b/" target="_blank" ><img  src="./img/logo-linkedin-256.png" alt="linkedin Gustavo"></a>
+              <p>ThiagoVasconcelos</p>              
             </div>
-            <div  class=" RedeSociais">
-              <a href="https://www.google.com/" target="_blank" ><img class="linkedin" src="./img/github-153-675523.webp" alt="Git Gustavo"></a>
-              <p>@thyRVasconcelos</p>
+            <div  class=" redesocial">
+              <a href="https://github.com/thyRVasconcelos" target="_blank" ><img  src="./img/github-153-675523.webp" alt="Git Gustavo"></a>
+              <p>thyRVasconcelos</p>
             </div>
           </div>
-        </div>
-      </footer>
-    
-</body>
+      </section>
+
+    </footer>
+  </body>
 </html>
